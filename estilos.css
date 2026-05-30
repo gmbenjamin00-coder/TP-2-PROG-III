@@ -1,0 +1,20 @@
+body {
+  background-color: beige;
+}
+
+main {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  content: "";
+  text-align: center;
+  display: block;
+  margin: 20px;
+  border: 3px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+}
+
+main ul li {
+  text-align: left;
+  margin: 10px;
+}
