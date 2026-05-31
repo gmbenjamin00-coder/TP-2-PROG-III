@@ -1,5 +1,5 @@
 body {
-  background-color: #7a88f5;
+  background-color: #32265d;
   background-size: cover;
 }
 
@@ -8,46 +8,39 @@ main {
   font-size: 15px;
   width: 70%;
   max-width: 600px;
-  text-align: center;
   margin: 20px auto;
   color: rgb(0, 0, 0);
-  background-color: #ffffff;
-  border: 3px solid #ffffff;
+  background-color: #ff4e3e;
+  border: 3px solid black;
   padding: 20px;
 }
 
-nav,
-a {
-  text-align: left;
-  color: rgb(0, 0, 0);
+nav a {
+  color: black;
 }
 
 h1 {
   display: block;
   margin: 0 auto;
-  background-color: #f1bc66;
   padding: 10px;
-  border: 2px solid #000000;
-}
-
-.tarjeta {
-  background-color: #ffffff;
-  border: 2px solid black;
-  padding: 20px;
-  margin: 10px;
-  cursor: pointer;
-}
-.tarjeta:hover {
-  background-color: #8277ff;
-}
-
-.seleccionada {
-  background-color: #f1bc66;
 }
 
 p {
   color: white;
 }
+
+.tarjeta {
+  background-color: #dfdfdf;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
 div p {
   color: black;
+}
+
+.seleccionada {
+  background-color: #ff4e3e;
 }

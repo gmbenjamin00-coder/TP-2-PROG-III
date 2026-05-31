@@ -20,21 +20,16 @@ btn.addEventListener("click", () => {
     lista.appendChild(li);
   });
 
-  //btn.disabled = true; // Deshabilitar el botón para evitar cargas múltiples
-
-  // Habilitar el botón de cargar nuevamente después de cargar las meriendas, pero evitar que se pueda cargar más de una vez
-  btn.disabled = false; // Permitir cargar nuevamente
-  btn.disabled = true; // Deshabilitar el botón para evitar cargas múltiples
-  btn2.disabled = false; // Habilitar el botón de limpiar
-  // Mostrar la cantidad de meriendas cargadas
+  btn.disabled = true;
+  btn.disabled = false;
+  btn.disabled = true;
+  btn2.disabled = false;
 
   if (btn.disabled) {
-    //btn3.textContent += " (No se pueden cargar más meriendas)";
   } else if (btn2.disabled === false) {
-    //btn3.textContent += " (Puedes cargar más meriendas)";
-    meriendas.length = 0; // Vaciar el array de meriendas
-    btn.disabled = false; // Habilitar el botón para cargar nuevamente
-    btn2.disabled = false; // Habilitar el botón de limpiar
+    meriendas.length = 0;
+    btn.disabled = false;
+    btn2.disabled = false;
   }
 });
 
